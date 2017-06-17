@@ -1,0 +1,190 @@
+body {
+  overflow-x: hidden;
+  background-image: url('https://dncache-mauganscorp.netdna-ssl.com/wallpapers/2195/2195119-1366x768-art-kusanagi-iaponiia-gostinaia-spalnia-stol-postel-shkafy-k.jpg');
+  background-repeat: no-repeat;
+  background-position: -3px 0px;
+  background-origin: content-box;
+}
+
+#current_day{
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(to bottom, #000000 0%,#7db9e8 100%);
+  border-radius: 200px 200px 200px 200px;
+  border: solid 40px #fced60;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,1);
+  box-sizing: border-box;
+  position: absolute;
+  right: -100px;
+  top: -80px;
+}
+
+#datetime {
+  width: 170px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #21201f;
+  font-size: 13pt;
+  position: relative;
+  top: 70px;
+  right: 150px;
+  border-radius: 14px;
+  color: white;
+  font-family: arial;
+}
+
+#date {
+  font-family: Arial Black;
+  font-size: 14pt;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+#daytemp {
+  width: 120px;
+  height: 30px;
+  position: relative;
+  top: 64px;
+  right: 70px;
+  color: white;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  font-size: 20pt;
+
+}
+
+#day {
+  font-family: Arial;
+  font-size: 18pt;
+}
+
+#temp {
+  cursor: pointer;
+}
+
+#today {
+  background-color: black;
+  color: #fced60;
+  border: solid 3px #fced60;
+  border-radius: 50px;
+}
+
+#apptitle {
+  font-family: 'Days One', sans-serif;
+  width: 450px;
+  height: 80px;
+  font-size: 52px;
+  color: #fced60;
+  letter-spacing: -3px;
+  box-sizing: content-box;
+  position: relative;
+  right: 148px;
+  top: 20px;
+}
+
+.cap {
+  font-size: 75px;
+}
+
+#decor {
+  width: 300px;
+  height: 300px;
+  border: solid 30px #fced60;
+  border-radius: 200px;
+  background-color: #333321;
+  position: absolute;
+  top: -60px;
+  left: -100px;
+}
+
+
+#calendar {
+  width: 950px;
+  height: 200px;
+  box-sizing: content-box;
+  position: relative;
+  bottom: 20px;
+}
+
+.weekday {
+  width: 120px;
+  height: 202px;
+  background-color: #fced60;
+  box-sizing: content-box;
+  margin-left: 12px;
+  border-radius: 10px;
+}
+
+.rain, .sun, .cloud, .snow {
+  background-color: #333231;
+  border-radius: 5px;
+  width: 108px;
+  height: 104px;
+  font-size: 84px;
+  overflow: hidden;
+}
+
+.rain {
+   color: #5497ff;
+}
+
+.sun {
+   color: #ff8b05;
+}
+
+.cloud {
+  color: #939393;
+}
+
+.snow {
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 35pt;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 18pt;
+}
+#weather_summary {
+  width: 800px;
+  height: 150px;
+  background-color: #0a0a09;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18pt;
+  font-family: Arial;
+  -webkit-box-shadow: -5px 2px 11px -1px rgba(0,0,0,0.48);
+  -moz-box-shadow: -5px 2px 11px -1px rgba(0,0,0,0.48);
+  box-shadow: -5px 2px 11px -1px rgba(0,0,0,0.48);
+}
+
+#weather_summary p {
+  padding: 20px;
+}
+
+#summary-grid {
+  position: relative;
+  right: 100px;
+}
+
+#location {
+  width: 500px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #333231;
+  border-radius: 7px;
+  font-size: 20pt;
+  color: white;
+}
+
+#location-grid {
+  position: relative;
+  top: 100px;
+}
+

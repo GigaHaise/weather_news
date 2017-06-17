@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Days+One'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Aclonica'>
+<link rel='stylesheet' href='weather.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://use.fontawesome.com/a2052fe5cc.js'></script>
+<script src='https://maps.googleapis.com/maps/api/js'></script>
+<script src='weather.js'></script>
+	</head>
+	<body>
+		<div id="content-area" class="container-fluid mx-auto">
+			<div class="row">
+				<div class="col-xlg-4 mx-auto">
+					<div id="decor">
+					</div>
+				</div>
+				<div id="apptitle" class="col-xlg-4 mx-auto">
+					<span class="cap">W</span>eather<span class="cap">N</span>ews
+				</div>
+				<div class="col-xlg-4 mx-auto" style="width: 220px; height: 220px">
+					<div id="current_day" class="container">
+						<div id="datetime" class="mx-auto text-left">
+							<p>&nbsp;&nbsp;<span id="date"></span>&nbsp;<span id="time">11:28 PM</span></time></p>
+						</div>
+						<div id="daytemp">
+							<p id="status"><span id="day"></span><br /><span id="temp"></span>&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="row">
+				<div id="calendar" class="container mx-auto text-center row col-lg-12 col-xlg-12">
+				</div>
+			</div>
+			<div class="row">
+				<div id="location-grid" class="mx-auto col-lg-6 col-xlg-6 text-center">
+					<div id="location">
+					</div>
+				</div>
+				<div id="summary-grid" class="mx-auto col-lg-6 col-xlg-6">
+					<div id="weather_summary">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
